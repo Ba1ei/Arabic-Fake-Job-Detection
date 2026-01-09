@@ -1,0 +1,8 @@
+pandas
+matplotlib
+seaborn
+scikit-learn
+wordcloud
+arabic-reshaper
+python-bidi
+Pillow
