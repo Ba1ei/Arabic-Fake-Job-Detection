@@ -24,14 +24,16 @@ Fake job advertisements pose a serious risk to job seekers, especially on social
 - Language: Arabic  
 - Source: Public job-related posts from X (Twitter)  
 - Data Collection: Manually collected and labeled  
-- Note: Due to privacy and ethical considerations, only a sample of the dataset is shared in this repository.
+- Note: The dataset is not publicly shared due to privacy and platform usage policies.
+However, the notebook clearly demonstrates the full workflow, from preprocessing to evaluation.
 
 ## 🔄 Project Workflow
 1. Data collection from X platform  
 2. Text cleaning and preprocessing (Arabic text normalization)  
 3. Feature extraction  
 4. Model training using multiple machine learning algorithms  
-5. Model evaluation and comparison  
+5. Model evaluation and comparison
+
 
 ## 🤖 Machine Learning Models Used
 - Random Forest  
@@ -68,6 +70,16 @@ Confusion matrices were used to analyze misclassification cases and better under
 - High recall is essential for fake job detection tasks to reduce potential harm to job seekers.  
 - Job advertisements on social media platforms present unique challenges due to informal language and varied writing styles.
 
+## 📁 Project Structure
+
+Arabic-Fake-Job-Detection/
+│
+├── data/ # Dataset directory (not included for privacy reasons)
+├── images/ # Evaluation results and visualizations
+├── fake_job_ads_detection.ipynb
+├── requirements.txt
+├── README.md
+
 ## 🚀 How to Run the Project
 
 1. Clone the repository:
@@ -85,5 +97,7 @@ pip install -r requirements.txt
 jupyter notebook arabic_fake_job_detection.ipynb
 ```
 
+👩‍💻 Author
 
-
+Developed by [Bayan Almalawi]
+Graduation Project – Machine Learning & NLP
