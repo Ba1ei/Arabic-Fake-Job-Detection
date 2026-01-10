@@ -3,13 +3,17 @@
 ## 📌 Project Overview
 This project aims to detect fake job advertisements written in Arabic using machine learning techniques. The dataset was collected from public job-related posts on the X platform (formerly Twitter), which is one of the most common platforms where job advertisements—both real and fake—are shared.
 
-## 🎯 Objective
-To classify Arabic job advertisements into:
+## Problem Statement & Objective
+Fake job advertisements pose a serious risk to job seekers, especially on social media platforms. These advertisements can lead to financial fraud, data theft, or exploitation. This project addresses this issue by building a machine learning-based classification system capable of of categorizing job postings into:
 - Real Job Advertisements (0)
 - Fake Job Advertisements (1)
 
-## 🧠 Problem Statement
-Fake job advertisements pose a serious risk to job seekers, especially on social media platforms. These advertisements can lead to financial fraud, data theft, or exploitation. This project addresses this issue by building a machine learning-based classification system capable of identifying fraudulent job postings.
+## 📂 Dataset
+- Language: Arabic  
+- Source: Public job-related posts from X (Twitter)  
+- Data Collection: Manually collected and labeled  
+- Note: The dataset is not publicly shared due to privacy and platform usage policies.
+However, the notebook clearly demonstrates the full workflow, from preprocessing to evaluation.
 
 ## 🛠 Tools & Technologies
 - Python
@@ -20,12 +24,6 @@ Fake job advertisements pose a serious risk to job seekers, especially on social
 - Google Colab
 - Matplotlib & Seaborn
 
-## 📂 Dataset
-- Language: Arabic  
-- Source: Public job-related posts from X (Twitter)  
-- Data Collection: Manually collected and labeled  
-- Note: The dataset is not publicly shared due to privacy and platform usage policies.
-However, the notebook clearly demonstrates the full workflow, from preprocessing to evaluation.
 
 ## 🔄 Project Workflow
 1. Data collection from X platform  
@@ -60,6 +58,11 @@ Random Forest achieved the best overall performance with the highest F1-score an
 ### Random Forest Confusion Matrix
 ![Random Forest Confusion Matrix](images/rf_confusion_matrix.png)
 
+## 🔍 Key Insights
+- Ensemble models outperformed distance-based models on Arabic text data.  
+- High recall is essential for fake job detection tasks to reduce potential harm to job seekers.  
+- Job advertisements on social media platforms present unique challenges due to informal language and varied writing styles.
+
 
 ## 📈 Evaluation Metrics
 The models were evaluated using the following metrics:
@@ -71,11 +74,6 @@ The models were evaluated using the following metrics:
 
 Confusion matrices were used to analyze misclassification cases and better understand model behavior when distinguishing between real and fake job advertisements.
 
-
-## 🔍 Key Insights
-- Ensemble models outperformed distance-based models on Arabic text data.  
-- High recall is essential for fake job detection tasks to reduce potential harm to job seekers.  
-- Job advertisements on social media platforms present unique challenges due to informal language and varied writing styles.
 
 ## 📁 Project Structure
 
