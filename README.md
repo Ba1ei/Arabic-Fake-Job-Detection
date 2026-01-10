@@ -55,6 +55,12 @@ However, the notebook clearly demonstrates the full workflow, from preprocessing
 ## 🧠 Model Selection
 Random Forest achieved the best overall performance with the highest F1-score and recall. High recall was prioritized in this project to minimize the risk of misclassifying fake job advertisements as real ones, which is critical in job fraud detection systems.
 
+## 📈 Model Evaluation Results
+
+### Random Forest Confusion Matrix
+![Random Forest Confusion Matrix](images/rf_confusion_matrix.png)
+
+
 ## 📈 Evaluation Metrics
 The models were evaluated using the following metrics:
 - Accuracy  
@@ -64,6 +70,7 @@ The models were evaluated using the following metrics:
 - Confusion Matrix  
 
 Confusion matrices were used to analyze misclassification cases and better understand model behavior when distinguishing between real and fake job advertisements.
+
 
 ## 🔍 Key Insights
 - Ensemble models outperformed distance-based models on Arabic text data.  
